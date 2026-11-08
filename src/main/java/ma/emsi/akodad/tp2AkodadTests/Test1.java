@@ -22,5 +22,7 @@ public class Test1 {
 
         String response4 = model.chat("Comment je m'appelle ?");
         System.out.println(response4);
+        String response5 = model.chat("Comment s'appelle le chat de Pierre ?");
+        System.out.println(response5);
     }
 }
